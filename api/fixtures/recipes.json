@@ -1,0 +1,65 @@
+[
+    {
+      "model": "api.recipe",
+      "pk": 1,
+      "fields": {
+        "title": "Spaghetti Carbonara",
+        "author": "Giuseppi Guanciale",
+        "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "image": "recipe_images/carbonara.jpg",
+        "ingredients": ["Pasta", "Eggs", "Bacon", "Parmesan", "Pepper"],
+        "steps": [
+          "Boil the pasta until al dente.",
+          "Cook the pancetta in a pan until crispy.",
+          "In a bowl, mix eggs and cheese.",
+          "Combine the pasta and pancetta, then add the egg mixture off the heat.",
+          "Serve with freshly ground black pepper and grated Parmesan cheese."
+        ]
+      }
+    },
+    {
+      "model": "api.recipe",
+      "pk": 2,
+      "fields": {
+        "title": "Chicken Alfredo",
+        "author": "Ezio Auditore",
+        "description": "A rich and creamy pasta dish with grilled chicken and Alfredo sauce.",
+        "image": "recipe_images/chicken_alfredo.jpg",
+        "ingredients": ["Pasta", "Chicken", "Cream", "Garlic", "Parmesan"],
+        "steps": [
+          "Cook the pasta.",
+          "Grill the chicken.",
+          "Prepare the Alfredo sauce.",
+          "Combine everything together."
+        ]
+      }
+    },
+    {
+      "model": "api.recipe",
+      "pk": 3,
+      "fields": {
+        "title": "Perfect Keto Breakfast",
+        "author": "Josh Vaughan",
+        "description": "A hearty, filling, and satisfying ketogenic kickstart to your day!",
+        "image": "recipe_images/KetoBrekfst2.png",
+        "ingredients": [
+          "3 large, organic, free-range eggs",
+          "1oz room temp grass fed Irish butter (Kerrygold), separated",
+          "1 large hass avocado",
+          "4-6 strips of thick cut bacon",
+          "Dill, salt, pepper, and garlic powder to taste"
+        ],
+        "steps": [
+          "Heat a non-stick skillet on medium to medium-high heat and add bacon strips.",
+          "Once the bacon is cooked to desired doneness, remove from heat and place on a rack or paper-towel lined plate to drain.",
+          "If preferred, transfer bacon grease to storage vessel, clean pan and then return to heat.",
+          "Add Irish butter to the pan and allow to melt and coat the bottom.",
+          "While butter is melting, whisk three whole eggs together and add to pan. Immediately start pushing cooked egg to center.",
+          "Once the eggs reach a semi-cooked consistency, add seasonings and cover to steam and turn heat down to low.",
+          "Plate with sliced avocado and sprinkle with salt and pepper to taste. Enjoy!"
+        ]
+      }
+    }
+  ]
+  
+  
