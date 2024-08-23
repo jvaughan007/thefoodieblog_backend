@@ -9,7 +9,7 @@ class Recipe(models.Model):
     description = models.TextField()
     ingredients = models.JSONField(default=list) # A list of ingredients
     steps = models.JSONField()  # A list of steps
-    image = models.ImageField(upload_to='images/')  # Handles image uploads
+    image = models.ImageField(upload_to='recipe_images/')  # Handles image uploads
 
     def __str__(self):
         return self.title
