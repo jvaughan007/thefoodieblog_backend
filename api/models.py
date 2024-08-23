@@ -7,7 +7,7 @@ class Recipe(models.Model):
     title = models.CharField(max_length=255)
     author = models.CharField(max_length=255)
     description = models.CharField(max_length=120)
-    blog = models.JSONField(default=list) # A list of paragraphs for the blog
+    blog = models.TextField() # A list of paragraphs for the blog
     ingredients = models.JSONField(default=list) # A list of ingredients
     steps = models.JSONField()  # A list of steps
     image = models.ImageField(upload_to='recipe_images/')  # Handles image uploads

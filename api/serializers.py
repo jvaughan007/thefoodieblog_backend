@@ -10,7 +10,7 @@ class RecipeSerializer(serializers.ModelSerializer):
     title = serializers.CharField(max_length=255, required=True)
     author = serializers.CharField(max_length=255, required=True)
     description = serializers.CharField(required=True)
-    blog = serializers.JSONField(required=True)
+    blog = serializers.CharField(required=True)
     ingredients = serializers.JSONField(required=True)
     steps = serializers.JSONField(required=True)
     image = serializers.ImageField(required=True)
