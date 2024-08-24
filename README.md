@@ -139,5 +139,5 @@ ALLOWED_HOSTS=127.0.0.1,localhost
 
 ---
 
-These plain-text guides should be straightforward and readable when published to GitHub. If you have further questions or need more customization, feel free to ask!
+
 
